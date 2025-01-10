@@ -1,0 +1,68 @@
+{
+    "cars": [
+{
+    "id": 1,
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2020,
+    "price": 17900,
+    "mileage": 35000,
+    "condition": "Good",
+    "color": "Silver",
+    "engine": {
+      "type": "1.8L 4-Cylinder",
+      "horsepower": 132,
+      "fuel_type": "Gasoline"
+    },
+    "transmission": "Automatic",
+    "features": [
+      "Air Conditioning",
+      "Navigation System",
+      "Rearview Camera",
+      "Bluetooth",
+      "Apple CarPlay",
+      "Lane Departure Warning",
+      "Keyless Entry",
+      "Cruise Control"
+    ],
+    "safety_features": [
+      "ABS Brakes",
+      "Traction Control",
+      "Side-Impact Airbags",
+      "Blind Spot Monitoring",
+      "Parking Sensors"
+    ],
+    "service_history": [
+      {
+        "date": "2023-05-10",
+        "description": "Oil Change and Tire Rotation",
+        "service_center": "Toyota Service Center"
+      },
+      {
+        "date": "2022-11-15",
+        "description": "Brake Pad Replacement",
+        "service_center": "Toyota Service Center"
+      }
+    ],
+    "ownership_history": [
+      {
+        "owner": 1,
+        "purchase_date": "2020-06-01",
+        "sale_date": "2023-04-15",
+        "reason_for_sale": "Upgraded to a new model"
+      }
+    ],
+    "warranty": {
+      "duration": "5 years",
+      "coverage": "Basic Warranty",
+      "remaining_years": 2
+    },
+    "location": {
+      "dealership": "Car Dealership ABC",
+      "address": "Street Address 123, 00100 Helsinki",
+      "contact": "+358 123 456 789"
+    },
+    "image": "https://www.example.com/images/toyota_corolla_2020.jpg"
+  }
+]
+}
