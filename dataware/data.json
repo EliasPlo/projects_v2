@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "title": "Ensimmäinen artikkeli",
+      "content": "Tämä on ensimmäisen artikkelin tiivistelmä.",
+      "fullContent": "Tämä on ensimmäisen artikkelin koko sisältö. Siinä kerrotaan yksityiskohtaisesti aiheesta.",
+      "author": "Kirjoittaja 1",
+      "date": "2025-01-01"
+    },
+    {
+      "id": 2,
+      "title": "Toinen artikkeli",
+      "content": "Tämä on toisen artikkelin tiivistelmä.",
+      "fullContent": "Tämä on toisen artikkelin koko sisältö. Se käsittelee mielenkiintoista aihetta syvällisemmin.",
+      "author": "Kirjoittaja 2",
+      "date": "2025-01-05"
+    },
+    {
+      "id": 3,
+      "title": "Kolmas artikkeli",
+      "content": "Tämä on kolmannen artikkelin tiivistelmä.",
+      "fullContent": "Kolmannen artikkelin koko sisältö avaa aihetta yksityiskohtaisesti ja tarjoaa hyödyllisiä vinkkejä.",
+      "author": "Kirjoittaja 3",
+      "date": "2025-01-10"
+    }
+  ]
+  

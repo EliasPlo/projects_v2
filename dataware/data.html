@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artikkeli</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .article {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .article h2 {
+      margin-bottom: 10px;
+    }
+    .article p {
+      margin: 5px 0;
+    }
+    .author, .date {
+      font-style: italic;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div id="article"></div>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const articleId = urlParams.get('id');
+
+    fetch('data.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("JSON-tiedostoa ei voitu ladata");
+        }
+        return response.json();
+      })
+      .then(data => {
+        const article = data.find(a => a.id == articleId);
+
+        if (article) {
+          const articleDiv = document.createElement('div');
+          articleDiv.className = 'article';
+
+          const title = document.createElement('h2');
+          title.textContent = article.title;
+
+          const fullContent = document.createElement('p');
+          fullContent.textContent = article.fullContent;
+
+          const author = document.createElement('p');
+          author.className = 'author';
+          author.textContent = `Kirjoittaja: ${article.author}`;
+
+          const date = document.createElement('p');
+          date.className = 'date';
+          date.textContent = `Julkaisupäivä: ${article.date}`;
+
+          articleDiv.appendChild(title);
+          articleDiv.appendChild(fullContent);
+          articleDiv.appendChild(author);
+          articleDiv.appendChild(date);
+
+          document.getElementById('article').appendChild(articleDiv);
+        } else {
+          document.getElementById('article').textContent = 'Artikkelia ei löydy.';
+        }
+      })
+      .catch(error => {
+        console.error("Virhe ladattaessa artikkelia:", error);
+      });
+  </script>
+</body>
+</html>
