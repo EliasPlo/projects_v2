@@ -1,0 +1,69 @@
+
+
+Videon editointityökalu
+Kirjastot: moviepy, opencv
+Idea: Toteuta sovellus, joka voi leikata, yhdistää tai muuntaa videoita eri formaatteihin.
+
+Music Player (Äänisoitin)
+Kirjastot: pygame.mixer, tkinter
+Idea: Toteuta yksinkertainen musiikkisoitin, jossa käyttäjä voi valita ja toistaa MP3-tiedostoja. Käytä tkinter-kirjastoa käyttöliittymän luomiseen.
+
+-------------------------------------------------------
+
+Salasanahallinta
+Kirjastot: cryptography, sqlite3, tkinter
+Idea: Tee ohjelma, joka tallentaa ja salaa käyttäjän salasanat tietokantaan. Käyttäjät voivat hakea ja hallita salasanojaan sovelluksessa.
+
+Tietoturvatyökalu verkkohaavoittuvuuksien tunnistamiseen
+Kirjastot: scapy, socket, nmap, cryptography
+Idea: Tee työkalu, joka tunnistaa verkkopalvelujen haavoittuvuuksia, kuten avoimia portteja tai salausongelmia. Tämä voisi sisältää myös salattujen tiedostojen analysoinnin ja generoidun raportin.
+
+Satelliittidatan analysointi (GIS)
+Kirjastot: geopandas, rasterio, matplotlib, shapely
+Idea: Rakenna sovellus, joka käsittelee satelliittikuvia, analysoi maankäyttöä tai laskee ympäristömuutoksia, kuten metsäkatoa. Voit käyttää avoimia satelliittidatoja (esim. NASA).
+
+Keinotekoinen pörssisimulaattori
+Kirjastot: yfinance, numpy, pandas, dash
+Idea: Rakenna pörssisimulaattori, jossa käyttäjät voivat ostaa ja myydä osakkeita reaaliaikaisesti simuloidussa ympäristössä. Mukaan voi lisätä tilastoanalyysin ja ennustemalleja.
+
+Pelimoottori Pythonilla
+Kirjastot: pygame, pyopengl, numpy
+Idea: Luo yksinkertainen pelimoottori, joka tarjoaa perustan pelien kehittämiselle, mukaan lukien fysiikka, valaistus ja tekstuurit.
+
+PDF-työkalu
+Kirjastot: PyPDF2, tkinter
+Idea: Kehitä ohjelma, joka voi yhdistää, jakaa, salata ja purkaa PDF-tiedostoja. Tarjoa käyttöliittymä toimintojen hallintaan.
+
+Tekoälyllä toimiva henkilökohtainen avustaja
+Kirjastot: speech_recognition, pyttsx3, datetime, wikipedia
+Idea: Luo tekoälyavustaja, joka vastaa kysymyksiin, kertoo ajan, lukee uutisia ja suorittaa muita tehtäviä.
+
+Kaavioiden piirtoohjelma
+Kirjastot: matplotlib, tkinter
+Idea: Toteuta ohjelma, jossa käyttäjä voi syöttää tietoja ja piirtää kaavioita, kuten ympyrädiagrammeja tai viivakaavioita.
+
+Stock Market Analyzer
+Kirjastot: yfinance, pandas, matplotlib
+Idea: Toteuta ohjelma, joka lataa historiallisia osaketietoja, analysoi ne ja näyttää graafisia esityksiä osakkeen kehityksestä.
+
+Tiedostonhallintasovellus
+Kirjastot: os, shutil, tkinter
+Idea: Tee ohjelma, joka järjestää tiedostoja kansioihin esimerkiksi tyypin (kuvat, dokumentit) tai luontiajan mukaan.
+
+-------------------------------------------------------
+
+Pelimoottori Pythonilla
+Kirjastot: pygame, pyopengl, numpy
+Idea: Luo yksinkertainen pelimoottori, joka tarjoaa perustan pelien kehittämiselle, mukaan lukien fysiikka, valaistus ja tekstuurit.
+
+
+
+
+
+
+
+
+
+
+
+
