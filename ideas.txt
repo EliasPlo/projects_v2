@@ -1,18 +1,10 @@
 
 
-Videon editointityökalu
-Kirjastot: moviepy, opencv
-Idea: Toteuta sovellus, joka voi leikata, yhdistää tai muuntaa videoita eri formaatteihin.
 
-Music Player (Äänisoitin)
-Kirjastot: pygame.mixer, tkinter
-Idea: Toteuta yksinkertainen musiikkisoitin, jossa käyttäjä voi valita ja toistaa MP3-tiedostoja. Käytä tkinter-kirjastoa käyttöliittymän luomiseen.
+
+
 
 -------------------------------------------------------
-
-Salasanahallinta
-Kirjastot: cryptography, sqlite3, tkinter
-Idea: Tee ohjelma, joka tallentaa ja salaa käyttäjän salasanat tietokantaan. Käyttäjät voivat hakea ja hallita salasanojaan sovelluksessa.
 
 Tietoturvatyökalu verkkohaavoittuvuuksien tunnistamiseen
 Kirjastot: scapy, socket, nmap, cryptography
@@ -21,14 +13,6 @@ Idea: Tee työkalu, joka tunnistaa verkkopalvelujen haavoittuvuuksia, kuten avoi
 Satelliittidatan analysointi (GIS)
 Kirjastot: geopandas, rasterio, matplotlib, shapely
 Idea: Rakenna sovellus, joka käsittelee satelliittikuvia, analysoi maankäyttöä tai laskee ympäristömuutoksia, kuten metsäkatoa. Voit käyttää avoimia satelliittidatoja (esim. NASA).
-
-Keinotekoinen pörssisimulaattori
-Kirjastot: yfinance, numpy, pandas, dash
-Idea: Rakenna pörssisimulaattori, jossa käyttäjät voivat ostaa ja myydä osakkeita reaaliaikaisesti simuloidussa ympäristössä. Mukaan voi lisätä tilastoanalyysin ja ennustemalleja.
-
-Pelimoottori Pythonilla
-Kirjastot: pygame, pyopengl, numpy
-Idea: Luo yksinkertainen pelimoottori, joka tarjoaa perustan pelien kehittämiselle, mukaan lukien fysiikka, valaistus ja tekstuurit.
 
 PDF-työkalu
 Kirjastot: PyPDF2, tkinter
@@ -50,20 +34,63 @@ Tiedostonhallintasovellus
 Kirjastot: os, shutil, tkinter
 Idea: Tee ohjelma, joka järjestää tiedostoja kansioihin esimerkiksi tyypin (kuvat, dokumentit) tai luontiajan mukaan.
 
+Sähköpostin lähetys ja vastaanotto
+Kirjastot: smtplib, email, imaplib
+Kuvaus: Luo sovellus, joka voi lähettää ja vastaanottaa sähköposteja automaattisesti.
+Esimerkki: Rakennetaan viikoittainen uutiskirjeohjelma tai sähköpostimuistutukset.
+
+ Tiedostojen salaaminen ja salasanan luominen
+Kirjastot: cryptography, hashlib
+Kuvaus: Luo salausohjelma, joka suojaa tiedostot tai salasanat.
+Esimerkki: Tee tiedostojen salaussovellus, joka estää luvattoman pääsyn.
+
+ Pankkitoimintojen simulaatio
+Kirjastot: sqlite3, random, time
+Kuvaus: Simuloi pankin toimintoja, kuten tilisiirtoja ja luottokorttien käsittelyä.
+Esimerkki: Luo ohjelma, joka simuloi asiakkaan pankkitilin saldoa ja tapahtumia.
+
+
+
+
+
+
+
 -------------------------------------------------------
+
+Äänianalyysi ja äänitunnistus
+Kirjastot: librosa, numpy, pyAudio
+Kuvaus: Analysoi äänitiedostoja ja tunnista puhe, musiikki tai taustamelu.
+Esimerkki: Tee ohjelma, joka tunnistaa musiikin genrejä tai analysoi puheen sävyjä.
+
+ Mobiilisovellus Pythonilla (Kivy)
+Kirjastot: Kivy
+Kuvaus: Luo yksinkertainen mobiilisovellus, joka toimii Androidilla tai iOS:llä.
+Esimerkki: Kehitä sovellus, joka tallentaa käyttäjän tehtävät ja muistuttaa niistä.
 
 Pelimoottori Pythonilla
 Kirjastot: pygame, pyopengl, numpy
 Idea: Luo yksinkertainen pelimoottori, joka tarjoaa perustan pelien kehittämiselle, mukaan lukien fysiikka, valaistus ja tekstuurit.
 
+Salasanahallinta
+Kirjastot: cryptography, sqlite3, tkinter
+Idea: Tee ohjelma, joka tallentaa ja salaa käyttäjän salasanat tietokantaan. Käyttäjät voivat hakea ja hallita salasanojaan sovelluksessa.
 
+Music Player (Äänisoitin)
+Kirjastot: pygame.mixer, tkinter
+Idea: Toteuta yksinkertainen musiikkisoitin, jossa käyttäjä voi valita ja toistaa MP3-tiedostoja. Käytä tkinter-kirjastoa käyttöliittymän luomiseen.
 
+Keinotekoinen pörssisimulaattori
+Kirjastot: yfinance, numpy, pandas, dash
+Idea: Rakenna pörssisimulaattori, jossa käyttäjät voivat ostaa ja myydä osakkeita reaaliaikaisesti simuloidussa ympäristössä. Mukaan voi lisätä tilastoanalyysin ja ennustemalleja.
 
+Videon editointityökalu
+Kirjastot: moviepy, opencv
+Idea: Toteuta sovellus, joka voi leikata, yhdistää tai muuntaa videoita eri formaatteihin.
 
-
-
-
-
+Chatbotti NLTK:llä tai HuggingFacella
+Kirjastot: NLTK, spaCy, HuggingFace Transformers
+Kuvaus: Luo yksinkertainen chatbot, joka ymmärtää ja vastaa käyttäjän kysymyksiin.
+Esimerkki: Tee FAQ-botti, joka vastaa yleisiin kysymyksiin tietystä aiheesta.
 
 
 
