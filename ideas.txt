@@ -6,21 +6,10 @@
 
 -------------------------------------------------------
 
-Tietoturvatyökalu verkkohaavoittuvuuksien tunnistamiseen
-Kirjastot: scapy, socket, nmap, cryptography
-Idea: Tee työkalu, joka tunnistaa verkkopalvelujen haavoittuvuuksia, kuten avoimia portteja tai salausongelmia. Tämä voisi sisältää myös salattujen tiedostojen analysoinnin ja generoidun raportin.
-
-Satelliittidatan analysointi (GIS)
-Kirjastot: geopandas, rasterio, matplotlib, shapely
-Idea: Rakenna sovellus, joka käsittelee satelliittikuvia, analysoi maankäyttöä tai laskee ympäristömuutoksia, kuten metsäkatoa. Voit käyttää avoimia satelliittidatoja (esim. NASA).
 
 PDF-työkalu
 Kirjastot: PyPDF2, tkinter
 Idea: Kehitä ohjelma, joka voi yhdistää, jakaa, salata ja purkaa PDF-tiedostoja. Tarjoa käyttöliittymä toimintojen hallintaan.
-
-Tekoälyllä toimiva henkilökohtainen avustaja
-Kirjastot: speech_recognition, pyttsx3, datetime, wikipedia
-Idea: Luo tekoälyavustaja, joka vastaa kysymyksiin, kertoo ajan, lukee uutisia ja suorittaa muita tehtäviä.
 
 Kaavioiden piirtoohjelma
 Kirjastot: matplotlib, tkinter
@@ -49,10 +38,16 @@ Kirjastot: sqlite3, random, time
 Kuvaus: Simuloi pankin toimintoja, kuten tilisiirtoja ja luottokorttien käsittelyä.
 Esimerkki: Luo ohjelma, joka simuloi asiakkaan pankkitilin saldoa ja tapahtumia.
 
+Tekstin salaus ja purku (PyCryptodome, Cryptography)
+Rakenna sovellus, joka salaa ja purkaa tiedostoja käyttäen modernia salausalgoritmeja.
+Hyödynnä PyCryptodome tai Cryptography-kirjastoja.
 
+Kielentunnistus (langid, TextBlob)
+Rakenna ohjelma, joka tunnistaa, mikä kieli on kirjoitettu tietyn tekstin perusteella.
+Käytä langid-kirjastoa kielentunnistukseen tai TextBlob-kirjastoa kielen analysointiin.
 
-
-
+ Tunnisteen luonti (uuid, hashlib)
+Luo ohjelma, joka generoi ainutlaatuisia tunnisteita (UUID) käyttäen uuid-kirjastoa tai hajautusalgoritmeja (esim. hashlib).
 
 
 -------------------------------------------------------
@@ -91,6 +86,29 @@ Chatbotti NLTK:llä tai HuggingFacella
 Kirjastot: NLTK, spaCy, HuggingFace Transformers
 Kuvaus: Luo yksinkertainen chatbot, joka ymmärtää ja vastaa käyttäjän kysymyksiin.
 Esimerkki: Tee FAQ-botti, joka vastaa yleisiin kysymyksiin tietystä aiheesta.
+
+Satelliittidatan analysointi (GIS)
+Kirjastot: geopandas, rasterio, matplotlib, shapely
+Idea: Rakenna sovellus, joka käsittelee satelliittikuvia, analysoi maankäyttöä tai laskee ympäristömuutoksia, kuten metsäkatoa. Voit käyttää avoimia satelliittidatoja (esim. NASA).
+
+Tekoälyllä toimiva henkilökohtainen avustaja
+Kirjastot: speech_recognition, pyttsx3, datetime, wikipedia
+Idea: Luo tekoälyavustaja, joka vastaa kysymyksiin, kertoo ajan, lukee uutisia ja suorittaa muita tehtäviä.
+
+Tietoturvatyökalu verkkohaavoittuvuuksien tunnistamiseen
+Kirjastot: scapy, socket, nmap, cryptography
+Idea: Tee työkalu, joka tunnistaa verkkopalvelujen haavoittuvuuksia, kuten avoimia portteja tai salausongelmia. Tämä voisi sisältää myös salattujen tiedostojen analysoinnin ja generoidun raportin.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
